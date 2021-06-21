@@ -18,3 +18,5 @@ Plugin saves data in .csv format as follows:
 DATE, TIME, Weather_Temperature, any other local variables separated by commas
 
 <b> Don't touch systemvarlist! </b>
+
+<b>Switch branches to view source code!</b>
