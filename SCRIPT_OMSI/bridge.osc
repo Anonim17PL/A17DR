@@ -1,0 +1,14 @@
+
+{macro:script_bridge_DR-DLL}
+
+	(L.L.schedule_active)
+	{if}
+		(M.V.GetTTDelay) 60 / $IntToStr (S.$.CurrentDelay)
+		(M.V.GetTTLineString) (S.$.CurrentLine)
+		(M.V.GetTTBusstopIndex) (M.V.GetTTBusstopName) (S.$.CurrentBusstopName)
+		(M.V.GetTTTerminusIndex) (M.V.GetTTBusstopName) (S.$.TerminusBusstopName)
+	{else}
+		"SCHEDULE NOT ACTIVE!" (S.$.CurrentBusstopName) (S.$.CurrentLine) (S.$.TerminusBusstopName) (S.$.CurrentDelay)
+	{endif}
+	
+{end}
