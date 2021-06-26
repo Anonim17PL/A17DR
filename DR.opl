@@ -1,0 +1,38 @@
+Rename this file to DR.opl
+
+ilość zmiennych w varlist - dowolna (do 999)
+Nie tykać systemvarlist!
+
+[dll]
+DR.dll
+
+
+[varlist]
+3
+Velocity
+Throttle
+Brake
+
+
+[systemvarlist]
+5
+Day
+Month
+Year
+Time
+Weather_Temperature
+
+[stringvarlist]
+4
+CurrentLine
+TerminusBusstopName
+CurrentBusstopName
+CurrentDelay
+
+[FTP]
+enabled=1
+host=192.168.1.110
+port=21
+username=anonim
+passwd=nnm
+
