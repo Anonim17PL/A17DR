@@ -4,6 +4,6 @@
 Eksperymentalna obsługa FTP (konfiguracja w pliku opl)
 <br>
 Obsługa zmiany czasu zapisywania zmiennych (konfiguracja w pliku opl)
-
-Experimental FTP support (configuration in opl file).
+<br>
+Experimental FTP support (configuration in opl file).<br>
 Support for changing the time of saving variables (configuration in the opl file)
