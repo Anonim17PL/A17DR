@@ -25,7 +25,6 @@
 #include <unistd.h>
 #endif
 
-
 using namespace std;
 
 
@@ -60,8 +59,8 @@ string Stval[20];
 ofstream plik;
 ofstream schedule;
 
-int timewait;
-int timewait_schedule;
+unsigned int timewait;
+unsigned int timewait_schedule;
 
 string filename;
 string filename_schedule;
