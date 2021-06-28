@@ -2,4 +2,5 @@
  Driving Recorder / Rejestrator Parametrów Jazdy
 
 Ekperymentalna obsługa FTP (konfiguracja w pliku opl)
+<br>
 Obsługa zmiennego czasu zapisywania zmiennych (konfiguracja w pliku opl)
