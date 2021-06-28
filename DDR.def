@@ -1,0 +1,10 @@
+LIBRARY DR.dll
+
+
+EXPORTS
+PluginStart
+AccessVariable
+AccessTrigger
+AccessSystemVariable
+AccessStringVariable
+PluginFinalize
